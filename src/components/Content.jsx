@@ -21,7 +21,7 @@ const Content = () => {
     <div className='content-ctn'>
         <div className="content">
             {content.map((item) => (               
-                <div className="card">
+                <div className="card" data-aos="fade-up" data-aos-duration="500">
                     <img src={item.img} alt="" />
                     <h1>{item.action}</h1>
                     <Link to={`/action/${item._id}`} >

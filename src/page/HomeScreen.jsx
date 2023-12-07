@@ -7,7 +7,7 @@ import SearchAndSort from './SearchAndSort'
 const HomeScreen = () => {
   return (
     <div className='home-ctn'>
-        <div className="text">
+        <div className="text" data-aos="zoom-in" data-aos-duration="3000">
             <img src="https://www.rtarf.mi.th/assets/images/sol.png" alt="" />
             <h1>คู่มือการฝึก<br/>ว่าด้วย<br/>ฝึกบุคคลท่ามือเปล่า</h1>
         </div>
