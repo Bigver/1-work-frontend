@@ -51,8 +51,8 @@ export default function Register() {
         <div>
             <title>สมัครสมาชิก</title>
         </div>
-        <h1 className="my-3">สมัครสมากชิก</h1>
-        <div  className='form-ctn'>
+        <h1 className="my-3">สมัครสมาชิก</h1>
+        <div  className='form-ctn-1'>
             <form onSubmit={submitHandler} className='container-form'> 
             <div className="input" controlId="name">
                 <label>Name</label>
