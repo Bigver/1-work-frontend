@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from '../assets/img1.jpg'
-import Content from '../components/content'
+import Content from '../components/Content'
 
 import SearchAndSort from './SearchAndSort'
 
