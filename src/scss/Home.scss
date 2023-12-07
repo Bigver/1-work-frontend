@@ -7,8 +7,9 @@
     align-items: center;
     text-align: center;
     .text{
+        width: 70vh;
         @media only screen and (max-width: 550px) {
-            width: 100%;
+            width: 400px;
           }
         font-size: 3vh;
         height: 70vh;
@@ -21,7 +22,7 @@
             position: absolute;
             z-index: 0;
             @media only screen and (max-width: 550px) {
-                right: -6%;
+                right: -5%;
                }
         }
    
