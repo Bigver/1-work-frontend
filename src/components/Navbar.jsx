@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass , faUser } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass , faUser ,  faHeart  } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { Store } from '../Store';
@@ -13,9 +13,7 @@ const Navbar = () => {
   const signoutHandler = () => {
     ctxDispatch({ type: 'USER_SIGNOUT' });
     localStorage.removeItem('userInfo');
-    localStorage.removeItem('shippingAddress');
-    localStorage.removeItem('paymentMethod');
-    window.location.href = '/signin';
+    window.location.href = '/';
   };
   return (
     <div className='navbar-ctn'>
@@ -37,7 +35,9 @@ const Navbar = () => {
                   <a href='/admin'> ADMIN</a>
               </div>
             ) : ""}
-          
+              <div className="heart">
+                    <a href="/cart"><FontAwesomeIcon icon={faHeart} size="xxl" style={{color: "#ff0000",}} /></a>
+              </div>
         </div>
     </div>
   )
