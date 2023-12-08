@@ -7,6 +7,18 @@
     align-items: center;
     text-align: center;
     padding-bottom: 200px;
+    .img{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        button{
+            width: 200px;
+            margin-top: 5%;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    }
     img{
         @media only screen and (max-width: 550px) {
             width: 100%;
