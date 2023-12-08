@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import ActionScreen from "./page/ActionScreen"
 import AddAction from "./page/AddAction";
 import AdminDashBoard from "./page/AdminDashBoard";
+import CartScreen from "./page/CartScreen";
 import EditAction from "./page/EditAction";
 import HomeScreen from "./page/HomeScreen"
 import Login from "./page/Login";
@@ -32,6 +33,7 @@ function App() {
                 <Route  path="/admin" element={<AdminDashBoard />} />
                 <Route  path="/edit/:id" element={<EditAction />} />
                 <Route  path="/add" element={<AddAction />} />
+                <Route  path="/cart" element={<CartScreen />} />
             </Routes>
           </main>
       </div>
