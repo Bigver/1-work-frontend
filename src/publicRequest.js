@@ -1,4 +1,4 @@
-const BASE_URL = "http://1-work-backend-production.up.railway.app/api";
+const BASE_URL = "https://slate-gray-dalmatian-garb.cyclic.app/api";
 
 export const publicRequest = BASE_URL;
 
